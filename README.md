@@ -1,12 +1,12 @@
 # Messages Widget for [Smashing](https://smashing.github.io)
 
-[Smashing](https://smashing.github.io) widget that displays that displayd detailed messages from other widgets.
+[Smashing](https://smashing.github.io) widget that displays messages from other widgets.
 Out of the box it works with the [Veeam Widget](https://github.com/lucapxl/smashing_widget_veeam) and the [Nagios XI Widget](https://github.com/lucapxl/smashing_widget_nagiosxi)
 
 ## Example
 
-![exmaple1](https://raw.githubusercontent.com/lucapxl/smashing_widget_messages/master/images/messages-1.png)
-![exmaple2](https://raw.githubusercontent.com/lucapxl/smashing_widget_messages/master/images/messages-2.png)
+![example1](https://raw.githubusercontent.com/lucapxl/smashing_widget_messages/master/images/messages-1.png)
+![example2](https://raw.githubusercontent.com/lucapxl/smashing_widget_messages/master/images/messages-2.png)
 
 ## Installation and Configuration
 
