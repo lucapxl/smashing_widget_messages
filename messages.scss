@@ -1,11 +1,12 @@
 $background: #444;
 $text: #fff;
 $success: #597526;
-$warning: #ff9618;
+$warning: #e98000;
 $failure: #ec663c;
 $info: rgb(3, 161, 252);
 $error: #ec663c;
 $unknown: #b5b5b5;
+$workinprogress: #A9A9A9;
 
 
 .widget-messages {
@@ -20,14 +21,15 @@ $unknown: #b5b5b5;
     background-color: $background;
 
     h2 {
-      font-size: 20px;
-
+      font-size: 25px;
+      padding: 0px 0px 10px 10px;
+      text-align: left;
     }
 
-    i {
-      padding-right: 10px;
+    .messagesblock {
+      padding-bottom: 20px;
     }
-  
+
     .fa-exclamation-triangle {
       color: $warning;
     }
@@ -40,6 +42,14 @@ $unknown: #b5b5b5;
       color: $unknown;
     }
   
+    .fa-briefcase {
+      color: c;
+    }
+
+    .fa-clock-o {
+      color: $info;
+    }
+
     .fa-info-circle {
       color: $info;
     }
@@ -54,16 +64,36 @@ $unknown: #b5b5b5;
 
     span {
       text-align: left;
-      font-size: 16px;
     }
 
     .single-message-header {
-      color: #dbdbdb
+      color: #dbdbdb;
+      font-size: 20px
+    }
+    .single-message-header.fa {
+      font-size: 20px;
+    }
+    .single-message-header span{
+      padding-left:6px
     }
 
     .single-message-body {
+      margin-top: -2px;
       color: #b5b5b5;
-      font-size: 12px;
+      font-size: 15px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-wrap: break-word;
+      line-height: 1.8em;
+      max-height: 1.8em;
+      padding-left: 3em;
+    }
+
+    .single-message-body.fa {
+      font-size:9px;
+    }
+    .single-message-body span{
+      padding-left:5px
     }
 
     p &.updated-at {

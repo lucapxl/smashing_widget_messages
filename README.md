@@ -9,6 +9,7 @@ Out of the box it works with the [Veeam Widget](https://github.com/lucapxl/smash
 ![example2](https://raw.githubusercontent.com/lucapxl/smashing_widget_messages/master/images/messages-2.png)
 
 ## Installation and Configuration
+Create a ```messages``` folder in your ```/widgets``` directory and clone this repository inside it.
 
 messages for this dashboard are HTML string with the following format:
 

@@ -1,0 +1,13 @@
+<ul>
+  <li data-bind-class="messages">
+    <h2>Messages</h2>
+  <div class='messagesblock' data-hideif="nagios_message | equals ''">
+    <span data-bind="nagios_message | raw"></span>
+  </div>
+  <div class='messagesblock' data-hideif="veeam_messages | equals ''">
+    <span data-bind="veeam_messages | raw"></span>
+  </div>
+  <p class="updated-at" data-bind="updatedAtMessage"></p>
+</li>
+</ul>
+    
